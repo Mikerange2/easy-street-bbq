@@ -1313,6 +1313,12 @@ a:focus-visible {
     gap: 8px;
     font-size: 0.55rem;
     letter-spacing: 0.09em;
+    white-space: nowrap;
+  }
+
+  .topline-divider,
+  .topline span:last-child {
+    display: none;
   }
 
   .site-header {
